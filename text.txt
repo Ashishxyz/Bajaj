@@ -1,0 +1,14 @@
+/backend
+   ├── /static
+   │    └── styles.css               # For custom CSS styles
+   ├── /templates
+   │    └── index.html               # Frontend HTML template (optional)
+   ├── /routes
+   │    └── bfhl.py                  # API routes for POST and GET
+   ├── /utils
+   │    └── file_handler.py          # Handles file validation and size calculations
+   │    └── parser.py                # Logic for extracting numbers, alphabets, highest lowercase
+   ├── app.py                        # Main Flask application entry point
+   ├── config.py                     # Configuration file (e.g., MySQL)
+   ├── requirements.txt              # Project dependencies
+   └── wsgi.py                       # For deployment
